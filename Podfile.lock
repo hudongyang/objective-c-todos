@@ -1,0 +1,20 @@
+PODS:
+  - IconFont (0.0.2)
+  - Masonry (1.1.0)
+
+DEPENDENCIES:
+  - IconFont (~> 0.0.2)
+  - Masonry (~> 1.1.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - IconFont
+    - Masonry
+
+SPEC CHECKSUMS:
+  IconFont: 2ea71fd37ea03acdb6025050dd36318de9fa37d9
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+
+PODFILE CHECKSUM: e27daa3c818c4952ab04e1a20caaa2a416b97003
+
+COCOAPODS: 1.6.1

@@ -7,13 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		87DC897585F4BE72B70A8685 /* Pods_Todos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A26D8D8191436BB257E834C /* Pods_Todos.framework */; };
 		99E9C5CF2268148900F7C1F7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 99E9C5CE2268148900F7C1F7 /* AppDelegate.m */; };
 		99E9C5D12268148A00F7C1F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99E9C5D02268148A00F7C1F7 /* Assets.xcassets */; };
 		99E9C5D42268148A00F7C1F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99E9C5D22268148A00F7C1F7 /* LaunchScreen.storyboard */; };
 		99E9C5D72268148A00F7C1F7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 99E9C5D62268148A00F7C1F7 /* main.m */; };
+		99E9C5DF2268158A00F7C1F7 /* Todo.m in Sources */ = {isa = PBXBuildFile; fileRef = 99E9C5DE2268158A00F7C1F7 /* Todo.m */; };
+		99E9C5E22268168100F7C1F7 /* TodoStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 99E9C5E12268168000F7C1F7 /* TodoStore.m */; };
+		99E9C5E522681D0A00F7C1F7 /* TodosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99E9C5E422681D0A00F7C1F7 /* TodosViewController.m */; };
+		99E9C5E82268278700F7C1F7 /* TodoColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 99E9C5E72268278700F7C1F7 /* TodoColors.m */; };
+		99E9C5EC226833D700F7C1F7 /* UIColor+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 99E9C5EA226833D700F7C1F7 /* UIColor+Extensions.m */; };
+		99E9C5EF2268554000F7C1F7 /* HeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 99E9C5EE2268554000F7C1F7 /* HeaderView.m */; };
+		99EE3E3E226E9C5600C0F848 /* TodoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99EE3E3D226E9C5600C0F848 /* TodoViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0ACC4B04717DD23E0417EB1B /* Pods-Todos.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Todos.debug.xcconfig"; path = "Target Support Files/Pods-Todos/Pods-Todos.debug.xcconfig"; sourceTree = "<group>"; };
 		99E9C5CA2268148900F7C1F7 /* Todos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Todos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99E9C5CD2268148900F7C1F7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		99E9C5CE2268148900F7C1F7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -21,6 +30,22 @@
 		99E9C5D32268148A00F7C1F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		99E9C5D52268148A00F7C1F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		99E9C5D62268148A00F7C1F7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		99E9C5DD2268158A00F7C1F7 /* Todo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Todo.h; sourceTree = "<group>"; };
+		99E9C5DE2268158A00F7C1F7 /* Todo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Todo.m; sourceTree = "<group>"; };
+		99E9C5E02268168000F7C1F7 /* TodoStore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TodoStore.h; sourceTree = "<group>"; };
+		99E9C5E12268168000F7C1F7 /* TodoStore.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TodoStore.m; sourceTree = "<group>"; };
+		99E9C5E322681D0A00F7C1F7 /* TodosViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TodosViewController.h; sourceTree = "<group>"; };
+		99E9C5E422681D0A00F7C1F7 /* TodosViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TodosViewController.m; sourceTree = "<group>"; };
+		99E9C5E62268278700F7C1F7 /* TodoColors.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TodoColors.h; sourceTree = "<group>"; };
+		99E9C5E72268278700F7C1F7 /* TodoColors.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TodoColors.m; sourceTree = "<group>"; };
+		99E9C5EA226833D700F7C1F7 /* UIColor+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Extensions.m"; sourceTree = "<group>"; };
+		99E9C5EB226833D700F7C1F7 /* UIColor+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Extensions.h"; sourceTree = "<group>"; };
+		99E9C5ED2268554000F7C1F7 /* HeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HeaderView.h; sourceTree = "<group>"; };
+		99E9C5EE2268554000F7C1F7 /* HeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HeaderView.m; sourceTree = "<group>"; };
+		99EE3E3C226E9C5600C0F848 /* TodoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TodoViewController.h; sourceTree = "<group>"; };
+		99EE3E3D226E9C5600C0F848 /* TodoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TodoViewController.m; sourceTree = "<group>"; };
+		9A26D8D8191436BB257E834C /* Pods_Todos.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Todos.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC2EBD43D56DF7741E9588EC /* Pods-Todos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Todos.release.xcconfig"; path = "Target Support Files/Pods-Todos/Pods-Todos.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -28,17 +53,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87DC897585F4BE72B70A8685 /* Pods_Todos.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2643C14980FB0CE52EF35D51 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9A26D8D8191436BB257E834C /* Pods_Todos.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		99E9C5C12268148900F7C1F7 = {
 			isa = PBXGroup;
 			children = (
 				99E9C5CC2268148900F7C1F7 /* Todos */,
 				99E9C5CB2268148900F7C1F7 /* Products */,
+				D448AC35A2490489EDC42109 /* Pods */,
+				2643C14980FB0CE52EF35D51 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,12 +91,35 @@
 			children = (
 				99E9C5CD2268148900F7C1F7 /* AppDelegate.h */,
 				99E9C5CE2268148900F7C1F7 /* AppDelegate.m */,
+				99E9C5EB226833D700F7C1F7 /* UIColor+Extensions.h */,
+				99E9C5EA226833D700F7C1F7 /* UIColor+Extensions.m */,
 				99E9C5D02268148A00F7C1F7 /* Assets.xcassets */,
 				99E9C5D22268148A00F7C1F7 /* LaunchScreen.storyboard */,
 				99E9C5D52268148A00F7C1F7 /* Info.plist */,
 				99E9C5D62268148A00F7C1F7 /* main.m */,
+				99E9C5DD2268158A00F7C1F7 /* Todo.h */,
+				99E9C5DE2268158A00F7C1F7 /* Todo.m */,
+				99E9C5E02268168000F7C1F7 /* TodoStore.h */,
+				99E9C5E12268168000F7C1F7 /* TodoStore.m */,
+				99E9C5E322681D0A00F7C1F7 /* TodosViewController.h */,
+				99E9C5E422681D0A00F7C1F7 /* TodosViewController.m */,
+				99E9C5E62268278700F7C1F7 /* TodoColors.h */,
+				99E9C5E72268278700F7C1F7 /* TodoColors.m */,
+				99E9C5ED2268554000F7C1F7 /* HeaderView.h */,
+				99E9C5EE2268554000F7C1F7 /* HeaderView.m */,
+				99EE3E3C226E9C5600C0F848 /* TodoViewController.h */,
+				99EE3E3D226E9C5600C0F848 /* TodoViewController.m */,
 			);
 			path = Todos;
+			sourceTree = "<group>";
+		};
+		D448AC35A2490489EDC42109 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0ACC4B04717DD23E0417EB1B /* Pods-Todos.debug.xcconfig */,
+				AC2EBD43D56DF7741E9588EC /* Pods-Todos.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -70,9 +129,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 99E9C5DA2268148A00F7C1F7 /* Build configuration list for PBXNativeTarget "Todos" */;
 			buildPhases = (
+				664DEEC8EF1E9784ACFC97E2 /* [CP] Check Pods Manifest.lock */,
 				99E9C5C62268148900F7C1F7 /* Sources */,
 				99E9C5C72268148900F7C1F7 /* Frameworks */,
 				99E9C5C82268148900F7C1F7 /* Resources */,
+				91C38DB3E63A97F499DA9990 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,13 +188,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		664DEEC8EF1E9784ACFC97E2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Todos-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		91C38DB3E63A97F499DA9990 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Todos/Pods-Todos-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/IconFont/IconFont.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IconFont.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Todos/Pods-Todos-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		99E9C5C62268148900F7C1F7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				99E9C5D72268148A00F7C1F7 /* main.m in Sources */,
+				99E9C5E22268168100F7C1F7 /* TodoStore.m in Sources */,
+				99E9C5EC226833D700F7C1F7 /* UIColor+Extensions.m in Sources */,
+				99E9C5EF2268554000F7C1F7 /* HeaderView.m in Sources */,
+				99E9C5DF2268158A00F7C1F7 /* Todo.m in Sources */,
 				99E9C5CF2268148900F7C1F7 /* AppDelegate.m in Sources */,
+				99EE3E3E226E9C5600C0F848 /* TodoViewController.m in Sources */,
+				99E9C5E522681D0A00F7C1F7 /* TodosViewController.m in Sources */,
+				99E9C5E82268278700F7C1F7 /* TodoColors.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,6 +382,7 @@
 		};
 		99E9C5DB2268148A00F7C1F7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0ACC4B04717DD23E0417EB1B /* Pods-Todos.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -282,6 +400,7 @@
 		};
 		99E9C5DC2268148A00F7C1F7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC2EBD43D56DF7741E9588EC /* Pods-Todos.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
